@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #915f4d;
+    color: #fff;
+    height: 100px;
+}
+
+.title-contain {
+    float: left;
+    padding: 25px 115px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn h1 {
+    padding: 0%;
+    margin: 0;
+}
+.dropdown a:hover {
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-align: center;
+    color: black;
+    padding: 20px 50px;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+}
+
+.dropdown-content button {
+    border: none;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    height: 90px;
+    width: 100%;
+}
+
+.dropdown-content button:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-content a:hover {
+    text-decoration: none;
+    background-color: #f1f1f1;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.admin-name {
+    float: right;
+    padding: 30px 100px;
+}
+
+.admin-name h3 {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.products {
+    height: 100%;
+}
+
+.products-title h2 {
+   margin-left: 580px;
+   color: #915f4d;;
+}
+
+.products-content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 0px);
+    box-shadow: 1px 8px 16px 0px rgba(0, 0, 0, 0.327);
+    border-width: 1px;
+    height: 90%;
+    width: 90%;
+}
+
+.table-container {
+    width: 95%;
+    height: 28rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 0px);
+    overflow: auto;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    
+}
+th {
+    background: #915f4d;
+    color: #fff;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+footer {
+    height: 100px;
+}
+#actions {
+    width: 175px;
+}
+#buyerad {
+    width: 175px;
+}
+#acceptbtn,
+#declinebtn {
+    height: 30px;
+    width: 60px;
+    margin: 0px 2px;
+    color: #fff;
+    border: none;
+}
+#acceptbtn {
+    background-color: yellowgreen;
+}
+#declinebtn {
+    background-color: red;
+}
+#acceptbtn:hover {
+    background-color: #99cd327b;
+}
+#declinebtn:hover {
+    background-color: rgba(255, 0, 0, 0.497);
+}

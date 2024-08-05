@@ -1,0 +1,94 @@
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header {
+  background: #915f4d;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1,#img {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  margin-top: 30px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-shadow: 1px 1px white;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.login-section,
+.signup-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.login-section form,
+.signup-section form {
+  width: 35rem;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h2,
+.signup-section h2 {
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 30rem;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  width: 88%;
+  padding: 10px;
+  background: #915f4d;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #915f4d;
+}
+
+footer {
+  text-align: start;
+  padding: 0 30px;
+}

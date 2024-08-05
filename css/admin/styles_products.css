@@ -1,0 +1,346 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #915f4d;
+    color: #fff;
+    height: 100px;
+}
+
+.title-contain {
+    float: left;
+    padding: 25px 115px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn h1 {
+    padding: 0%;
+    margin: 0;
+}
+.dropdown a:hover {
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-align: center;
+    color: black;
+    padding: 20px 50px;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+}
+
+.dropdown-content button {
+    border: none;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    height: 90px;
+    width: 100%;
+}
+
+.dropdown-content button:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-content a:hover {
+    text-decoration: none;
+    background-color: #f1f1f1;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.admin-name {
+    float: right;
+    padding: 30px 100px;
+}
+
+.admin-name h3 {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.products {
+    height: 100%;
+}
+
+.products-title h2 {
+   margin-left: 580px;
+   color: #915f4d;
+}
+
+.products-content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 0px);
+    box-shadow: 1px 8px 16px 0px rgba(0, 0, 0, 0.327);
+    border-width: 1px;
+    height: 90%;
+    width: 90%;
+}
+
+.products-actions {
+    text-align: end;
+    padding: 5px 5px;
+}
+
+.products-actions button {
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    color: #fff;
+    border-style: groove;
+    border-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.table-container {
+    width: 95%;
+    height: 28rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 0px);
+    overflow: auto;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    
+}
+
+
+th {
+    background: #915f4d;
+    color: #fff;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#actions {
+    width: 200px;
+}
+
+#update-action {
+    margin-right: 5px;
+    height: 30px;
+    background-color: #0000ffb3;
+    color: #fff;
+    border: none;
+}
+
+#remove-action {
+    height: 30px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+}
+#update-action:hover{
+    background-color: #0000ff7a;
+}
+#remove-action:hover {
+    background-color: #ff00008d;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd75;
+}
+tr:hover {
+    background-color: #ff440040;
+}
+
+.add-dialog {
+    background-color: #fff;
+    text-align: center;
+    border-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 35%;
+    height: 50%;
+    
+}
+
+.edit-dialog {
+    background-color: #fff;
+    border-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 35%;
+    height: 50%;
+}
+.edit-dialog h2 {
+    text-align: center;
+}
+
+.exit-btn {
+    position: absolute;
+    background: #fff;
+    border-style: none;
+    font-size: 20px;
+    top: 10%;
+    left: 90%;
+    transform: translate(10% , -90%);
+}
+.dialog-section1 {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50% , -65%);
+    height: 15%;
+    width: 90%;
+}
+
+.dialog-section2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    height: 15%;
+    width: 90%;
+}
+
+.dialog-section3 {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50% , -20%);
+    height: 15%;
+    width: 90%;
+}
+
+.dialog-section4 {
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50% , -5%);
+    height: 15%;
+    width: 90%;
+}
+
+.dialog-section5 {
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50% , 0%);
+    text-align: end;
+    height: 15%;
+    width: 90%;
+}
+.dialog-section6 {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50% , -35%);
+    height: 15%;
+    width: 90%;
+}
+
+.dialog-section1 input,
+.dialog-section2 input,
+.dialog-section3 input,
+.dialog-section6 input{
+    height: 80%;
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+}
+
+.dialog-section1 input:hover,
+.dialog-section2 input:hover,
+.dialog-section3 input:hover,
+.dialog-section4 input:hover,
+.dialog-section6 input:hover {
+    border: solid;
+    border-width: 2px;
+}
+.dialog-section4 
+#product-image {
+    height: 80%;
+    width: 85%;
+    font-size: large;
+    border: solid;
+    border-width: 1px;
+}
+
+#upload-btn {
+    border: none;
+    position: absolute;
+    left: 88%;
+    top: 0%;
+    transform: translate(-12%, -15%);
+    margin-top: 5px;
+    height: 80%;
+    background-color: #FF4500;
+    color: #fff;
+}
+#upload-btn:hover {
+    background-color: #ff44009b;
+}
+
+#image-product {
+    height: 80%;
+    width: 100%;
+    font-size: large;
+    border: solid;
+    border-width: 1px;
+}
+
+.dialog-section5 input {
+    height: 30px;
+    width: 80px;
+    background-color: #FF4500;
+    border-style: none;
+    color: #fff;
+}
+
+.dialog-section5 input:hover {
+    background-color: #ff44009b;
+}
+
+
+.remove-dialog {
+    background-color: #fff;
+    text-align: center;
+    border-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.confirm-buttons button {
+    height: 40px;
+    width: 100px;
+}
+
+#confirm-btn{
+    background-color: greenyellow;
+}
+
+#cancel-btn {
+    background-color: rgba(253, 0, 0, 0.656);
+}
+
+footer {
+    height: 100px;
+}

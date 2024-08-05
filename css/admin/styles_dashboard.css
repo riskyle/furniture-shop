@@ -1,0 +1,170 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #915f4d;
+    color: #fff;
+    height: 100px;
+}
+
+.title-contain {
+    float: left;
+    padding: 25px 115px;
+}
+
+.dropdown {
+    position: relative;
+}
+.dropbtn h1 {
+    padding: 0%;
+    margin: 0%;
+}
+.dropdown a:hover {
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-align: center;
+    color: black;
+    padding: 20px 50px;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+}
+
+.dropdown-content button {
+    border: none;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    height: 90px;
+    width: 100%;
+}
+
+.dropdown-content button:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-content a:hover {
+    text-decoration: none;
+    background-color: #f1f1f1;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.admin-name {
+    float: right;
+    padding: 30px 100px;
+}
+
+.admin-name h3 {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.dashboard {
+    height: 100%;
+}
+
+.dashboard-title {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.dashboard-title h2 {
+    color: #FF4500;
+}
+
+.upper-card {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 0%);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    width: 70%;
+    height: 30%;
+}
+
+.cards {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 275px;
+    height: 175px;
+}
+.cards h3 {
+    color: #FF4500;
+}
+
+.card-contain {
+    text-align: center;
+}
+.card-contain h2 {
+    color: #FF4500;
+}
+.card-contain p {
+    margin-top: 30px;
+    font-size: large;
+    color: #ffb300;
+}
+
+.lower-card {
+    position: absolute;
+    left: 50%;
+    top: 78%;
+    transform: translate(-50%, -22%);
+    width: 70%;
+    height: 50%;
+    text-align: center;
+}
+
+.lower-card .cards {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 0%);
+    width: 98%;
+    height: 100%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background: #915f4d;
+    color: #fff;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+#dataid {
+    width: 10%;
+}
+#dataname {
+    width: 50%;
+}
+#dataprice,
+#datasold {
+    width: 20%;
+}
+footer {
+    height: 50px;
+}
